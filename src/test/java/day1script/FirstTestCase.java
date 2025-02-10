@@ -12,7 +12,7 @@ public class FirstTestCase {
 		//Launch browser(chrome)
 		//ChromeDriver driver = new ChromeDriver();
 		
-		WebDriver driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver();//Driver Invokation
 		
 		//open url
 		
