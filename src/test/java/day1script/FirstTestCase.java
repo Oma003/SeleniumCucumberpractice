@@ -12,8 +12,7 @@ public class FirstTestCase {
 		//Launch browser(chrome)
 		//ChromeDriver driver = new ChromeDriver();
 		
-		WebDriver driver = new ChromeDriver();//Driver Invokation
-		
+		WebDriver driver = new ChromeDriver();
 		//open url
 		
 		driver.get("https://staging.toolbox.bjshomedelivery.com/login/");
@@ -33,7 +32,7 @@ public class FirstTestCase {
 		}
 		
 		//close browser
-		driver.close();
+		driver.close(); //use to close the browser
 		
 	
 
